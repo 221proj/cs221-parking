@@ -5,7 +5,8 @@ import featureExtractorModel as model
 import cPickle as pickle
 import json
 
-lots = ['935', '202031', '326052']
+#lots = ['935', '202031', '326052']
+lots = ['935']
 # lots = os.listdir('../train')      # get a list of all lots in train directory
 
 readLocation = util.ReadLocation("../idLocation/helloLocation.txt")         

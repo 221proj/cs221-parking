@@ -309,7 +309,7 @@ class readFileExtractParkID:
     def __init__(self, filePath): 
         self.filepath = filePath  
         self.parkIDs = list()      
-      
+        
       
     def extractList(self):
         if len(os.listdir(self.filepath)) == 1:

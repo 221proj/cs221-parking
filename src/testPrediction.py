@@ -4,7 +4,8 @@ import featureExtractorModel as model
 import cPickle as pickle
 import matplotlib.pyplot as plt
 
-lots = ['935', '202031', '326052']
+#lots = ['935', '202031', '326052']
+lots=['935']
 # lots = os.listdir('../test')      # get a list of all lots in output directory
 
 readEvents = util.ReadEvents("../eventsSchedule/event_schedule2.csv")
